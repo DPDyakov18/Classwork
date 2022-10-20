@@ -66,7 +66,7 @@ public class Car {
     }
     public void drive(double distance){
         if((this.fuelQuantity-(distance*fuelConsumption))>0){
-            whoIAm();
+            //whoIAm();
         }
     }
 }
